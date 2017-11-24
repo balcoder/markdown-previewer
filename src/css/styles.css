@@ -1,0 +1,30 @@
+body{
+  background-color: #9bab4b;
+}
+
+#markdown {
+  margin-top: 20px;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#preview {
+  margin-top: 20px;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#markdown-text {
+  margin: 20px 0;
+  height:200px;
+  width: 400px;
+  background-color: white;
+}
+
+.box-title {
+  color: white;
+}
