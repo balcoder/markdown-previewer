@@ -39,7 +39,11 @@ class App extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-
+            <div class="jumbotron">
+              <h1 class="text-center">Markdown Previewer</h1>
+              <p class="lead text-center">Just type in your markdown in the markdown panel and
+              watch it live update in the previewer panel</p>
+            </div>
           </div>
         </div>
         <div className="row">

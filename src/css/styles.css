@@ -28,3 +28,26 @@ body{
 .box-title {
   color: white;
 }
+.jumbotron {
+  background-color: #103e2f;
+  color: white;
+  font-weight: 1200;
+}
+
+.card-header {
+  background-color: #ab9b4b;
+  color: white;
+}
+.card {
+  /*height: 488px;*/
+}
+.card-block {
+  height: 488px;
+  display: flex;
+  flex-direction: column;
+}
+.card-block #markdown {
+  margin-top: 0;
+  box-sizing: border-box;
+  height: 100%;
+}

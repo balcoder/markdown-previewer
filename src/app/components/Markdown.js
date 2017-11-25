@@ -36,9 +36,8 @@ export class Markdown extends React.Component {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-header text-center">Markdown</div>
-            <div >
+            <div className="card-block">
               <div className="form-group">
-
                 <textarea
                   className="form-control" id="markdown"
                   defaultValue={this.state.markdown}
@@ -48,7 +47,7 @@ export class Markdown extends React.Component {
           </div>
         </div>
         <div className="col-sm-6">
-          <div className="card" style={{height: 488}}>
+          <div className="card">
             <div className="card-header  text-center">Preview</div>
             <div className="card-block">
               <div>{this.state.preview}</div>
