@@ -34,7 +34,7 @@ class App extends React.Component {
     return(<div dangerouslySetInnerHTML={initialMarkedOutput}></div>)
   }
 
-  render() { // call the render method which tells react when to update view
+  render() { // call the render method which tells react when and what to update
     return (
       <div className="container">
         <div className="row">
