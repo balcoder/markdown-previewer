@@ -37,8 +37,9 @@ export class Markdown extends React.Component {
           <div className="card">
             <div className="card-header text-center">Markdown</div>
             <div className="card-block">
-              <div className="form-group">
+              <div id="txt-container" className="form-group">
                 <textarea
+                  rows="14"
                   className="form-control" id="markdown"
                   defaultValue={this.state.markdown}
                   onChange={(event) => this.onChangeMarkdown(event) }></textarea>

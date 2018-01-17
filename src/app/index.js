@@ -16,7 +16,9 @@ class App extends React.Component {
       markdown: "Heading\n=======\n\n"
       +"Sub-heading\n-----------\n\n"+
       "### Another deeper heading\n\n"+
-      "Text attributes *italic*, **bold**,`monospace`, ~~strikethrough~~ .",
+      "Text attributes *italic*, **bold**,`monospace`, ~~strikethrough~~ .\n\n"+
+      "[I'm an inline-style link](https://www.google.com)\n\n"+
+"[I'm an inline-style link with title](https://www.google.com 'Google')\n\n"
     }
 
   }
